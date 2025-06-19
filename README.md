@@ -1,10 +1,10 @@
 ## About Me
 Hi, I'm JD. I have a background in:
 - creating and embedding data transformation projects.
-- analysing data to provide assurance that processes are compliant with regulatory expectations.
-- creating interactive dashboards to highlight and track operational effectivness.
+- analysing data to provide assurance that processes are compliant.
+- creating interactive dashboards to track operations.
 
-I am currently undertaking a Level 6 Data Science Apprenticeship to further enhance my technical skills.
+I'm currently undertaking a Data Science Apprenticeship to further enhance my technical skills.
 
 ## My Skills
 - **Tools**: Python, Power BI, Excel
