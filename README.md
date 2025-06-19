@@ -1,5 +1,5 @@
 ## About Me
-Hi, I'm Jake. I have a background in:
+Hi, I'm JD. I have a background in:
 - creating and embedding data transformation projects.
 - analysing data to provide assurance that processes are compliant with regulatory expectations.
 - creating interactive dashboards to highlight and track operational effectivness.
@@ -12,5 +12,5 @@ I am currently undertaking a Level 6 Data Science Apprenticeship to further enha
 - **Techniques**: Building Data Pipelines, Statistical Analysis, Data Visualisaition, Linear & Logistic Regression
 - **Qualifications**: Data Analytics Apprenticeship, Compliance & Risk Apprenticeship
 
-## My Projects
+## My Public Projects
 - Linear Regression to predict revenune of future films based on budget & rating
