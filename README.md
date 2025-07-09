@@ -13,4 +13,4 @@ I'm currently undertaking a Data Science Apprenticeship to further enhance my te
 - **Qualifications**: Data Analytics Apprenticeship, Compliance & Risk Apprenticeship
 
 ## My Public Projects
-- Linear Regression to predict revenune of future films based on budget & rating
+- Linear Regression to predict car price using historical car sales data
