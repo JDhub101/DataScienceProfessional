@@ -1,14 +1,15 @@
 
 ## 🤵 About Me
 
-Hi, I'm JD. I have a background in:
+Hi, I'm JD. Thanks for visiting my page.
+
+I have a background in:
 - creating and embedding data transformation projects.
 - analysing data to provide assurance that processes are compliant.
 - creating interactive dashboards to track operations.
 
-</p>I'm currently undertaking a Data Science Apprenticeship to further enhance my technical skills.
+I'm currently undertaking a Data Science Apprenticeship to further enhance my technical skills.
 
-</p>
 
 ## 🥇 My Skills
 
@@ -17,26 +18,41 @@ Hi, I'm JD. I have a background in:
 - **Techniques**: Building Data Pipelines, Statistical Analysis, Data Visualisaition, Linear & Logistic Regression
 - **Qualifications**: Data Analytics Apprenticeship, Compliance & Risk Apprenticeship
 
+
 ## 💻 My Public Projects
 
-- Linear Regression to predict car price using historical car sales data
+Currently, I have only one public project, which is a linear regression using python to predict car price (see below).
 
-</p>
 
-</p>
 
-## Project 1: Linear Regression
 
-This project
+## Prediciting Car Price (using a kaggle public dataset)
 
-I need to highlight these <mark>very important words</mark>.
+#### Executive Summary
+
+People want to pay a price for a car that reflects the quality and design. This analysis is to understand what factors influence the price of a car and if these can be relied upon to predict future car prices. This means that distributors can value cars appropriately and customers receive a fair price
+
+The hypothesis was that the condition, brand and style of a car will influence the price, so these variables can be used to predict the price of a car. Linear Regression was chosen as the appropriate model because it can use numerical and categorical data, once encoded, to predict a numerical value.
+
+The data was exported from Kaggle. It includes details about the cars sold in 2014 and 2015 including brand, body type, year, odometer count, condition score. Kaggle 
+
+In summary, the model had a R squared of X and p-value of y meaning <mark>there is a pattern between independent and dependent variables and the results are not due to randomness.<mark>
 
 > Making a point here
 
 
+#### Data Visualisation
+
+Visualising data is crucial to fully understand it.
+
+I plotted a column & line chart to X
+
+
+
+
 #### Copy of Python Code:
 
-Here is the python code I used in a juypter notebook in Visual Studio Code Editor:
+Here is the python code I used in this analysis. I used a juypter notebook in Visual Studio Code Editor.
 
 ```
   import pandas as pd
