@@ -47,7 +47,7 @@ Visualising data is crucial to fully understand it.
 
 I plotted a column & line chart to X
 
-
+![chart 1!](/assets/Picture1.png "chart 1")
 
 
 #### Copy of Python Code:
