@@ -20,11 +20,11 @@ I'm currently undertaking a Data Science Apprenticeship to further enhance my te
 # Project 1: Linear Regression
 This project
 
-
-
 ## Copy of Python Code:
-'import pandas as pd'
-'import numpy as np'
+	```
+{
+  import pandas as pd
+import numpy as np
 'import matplotlib.pyplot as plt'
 'import os'
 'import seaborn as sns'
@@ -32,3 +32,5 @@ This project
 
 'file_path = 'car_data.xlsx''
 'df = pd.read_excel(file_path, sheet_name='data')'
+}
+```
