@@ -1,7 +1,8 @@
+Hi, I'm JD. Thanks for visiting my page.
+
+<img src="/assets/MyPhoto.jpg" alt="Me" style="max-width: 150px; border-radius: 8px;">
 
 ## 🤵 About Me
-
-Hi, I'm JD. Thanks for visiting my page.
 
 I have a background in:
 - creating and embedding data transformation projects.
