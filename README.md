@@ -9,7 +9,9 @@ I have a background in:
 - creating interactive dashboards to track operations.
 
 I'm currently undertaking a Data Science Apprenticeship to further enhance my technical skills.
-
+<br>
+<br>
+<br>
 
 ## 🥇 My Skills
 
@@ -17,16 +19,20 @@ I'm currently undertaking a Data Science Apprenticeship to further enhance my te
 - **Python Libraries**: Pandas, NumPy, matplotlib
 - **Techniques**: Building Data Pipelines, Statistical Analysis, Data Visualisaition, Linear & Logistic Regression
 - **Qualifications**: Data Analytics Apprenticeship, Compliance & Risk Apprenticeship
-
+<br>
+<br>
+<br>
 
 ## 💻 My Public Projects
 
 Currently, I have only one public project, which is a linear regression using python to predict car price (see below).
-
-
-
+<br>
+<br>
+<br>
 
 ## Prediciting Car Price (using a kaggle public dataset)
+
+<br>
 
 #### Executive Summary
 
@@ -39,7 +45,9 @@ The data was exported from Kaggle. It includes details about the cars sold in 20
 In summary, the model had a R squared of X and p-value of y meaning <mark>there is a pattern between independent and dependent variables and the results are not due to randomness.<mark>
 
 > Making a point here
-
+<br>
+<br>
+<br>
 
 #### Data Visualisation
 
@@ -48,12 +56,14 @@ Visualising data is crucial to fully understand it.
 I plotted a column & line chart to X
 
 ![chart 1!](/assets/Picture1.png "chart 1")
-
+<br>
+<br>
+<br>
 
 #### Copy of Python Code:
 
 Here is the python code I used in this analysis. I used a juypter notebook in Visual Studio Code Editor.
-
+<br>
 ```
   import pandas as pd
   import numpy as np
@@ -65,3 +75,4 @@ Here is the python code I used in this analysis. I used a juypter notebook in Vi
   file_path = 'car_data.xlsx'
   df = pd.read_excel(file_path, sheet_name='data')
 ```
+<br>
