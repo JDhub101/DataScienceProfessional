@@ -57,8 +57,10 @@ Visualising data is crucial to fully understand it.
 
 I plotted a column & line chart to X
 
+![MMR image](assets/MMR.png)
 
-!MMR image
+
+![Car Price image](assets/CarPrice.png)
 
 <br>
 <br>
