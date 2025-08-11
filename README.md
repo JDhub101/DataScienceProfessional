@@ -44,8 +44,6 @@ Excel was initially used to explore and visualize the data, but issues quickly a
 
 The model’s results show that there is a ***reliable pattern between independent and dependent variables, and these are not due to randomness***. The model could be used now to predict car prices within a £4.5k tolerance. To enhance the model, another form of encoding could be used to remove possible overfitting. The model will save employees 26 hours a month that would be spent physically surveying cars and will limit underselling, potentially up to £2.9k per car, thereby generating more profit. 
 <br>
-<br>
-<br>
 
 #### Data Tools & Engineering
 
@@ -56,23 +54,16 @@ Linear regression was chosen because there’s an expectation that the independe
 A correlation matrix showed that the year and odometer columns were correlated with each other (72%). This is clear in these charts as the shapes are opposite. Therefore, odometer was removed to remove multicollinearity. Transmission and colour were also removed because of their extremely low correlation with price.
 
 <br>
-<br>
-<br>
 
 #### Data Visualisation
 
 Visualising data is crucial to be able to understand it. A clusted column chart was plotted showing average selling price (predictor variable) with the avergae MMR to understand if the MMR score is worth including in the model. The MMR is an industry pricing standard showing the estimated price of a car. This is directly factored into the selling price so was removed because the analysis is to understand if a car’s characteristics can be used to predict price.
-
+<br>
 ![MMR image](assets/MMR.png)
-
+<br>
 A column chart with a secondary line axis was plotted to show the total price of all cars sold and the average price by brand. This chart evidences a general understanding of the market, that some brands are significantly more expensive than others, suggesting that brand could be a good predictor variable.
-
+<br>
 ![Car Price image](assets/CarPrice.png)
-
-
-
-<br>
-<br>
 <br>
 
 #### Data Analysis
@@ -87,7 +78,7 @@ A column chart with a secondary line axis was plotted to show the total price of
 | Year coefficient | 735 | Every one year increase, increases the price by £735
 | Mean price per brand coefficient | 0.82 | Every one pound increase, increases the price by 82p
 | P values | 0.00 | Below 0.05 which means the results are not random
-
+<br>
 The results provide sufficient evidence to conclude this model could be used to predict the price of a car, within a reasonable margin of error. For greater accuracy, the following steps are recommended:
 1.	Collect up-to-date information and from an official source to improve the accuracy of the data.
 2.	Consider adding other suitable variables, for example the fuel type and engine size.
