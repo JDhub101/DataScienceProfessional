@@ -78,8 +78,8 @@ A column chart with a secondary line axis was plotted to show the total price of
 | Condition coefficient | 61 | Every one condition increase, increases the price by £44
 | Mean price per body shape coefficient | 0.24 | Every one pound increase, increases the price by 24p
 | Year coefficient | 735 | Every one year increase, increases the price by £735
-| MAPE | 74% | high percentage error
 | Mean price per brand coefficient | 0.82 | Every one pound increase, increases the price by 82p
+| MAPE | 74% | high percentage of error/ inaccuracy
 | P values | 0.00 | Below 0.05 which means the results are not random
 
 <br>
