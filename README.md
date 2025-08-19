@@ -16,7 +16,7 @@ I currently work for a UK Financial Services company as a Data Analyst. My role 
 - **Python Libraries**: Pandas, NumPy, matplotlib, seaborn
 - **Technical skills**: Building Data Pipelines, Statistical Analysis, Data Visualisaition, Linear & Logistic Regression
 - **General skills**: Project management, UK regulatory environment and rules.
-- **Expierence**: 10 years expierence in the financial services across a variety of customer service and consultancy roles. And 3 years in a Data Analyst role.
+- **Expierence**: 10 years expierence in the financial services across a variety of customer service, consultancy and data analyst roles.
 I'm currently undertaking a Level 6 Data Science Apprenticeship to further enhance my skills.
 <br>
 <br>
@@ -38,16 +38,18 @@ I have one public project; a linear regression model to predict car price, in wh
 
 #### Executive Summary
 
-People want to pay a car price that reflects the design and quality. This analysis discovers whether historical car sales data can predict the selling price. The hypothesis was that the condition and brand of a car would impact the price. Linear Regression was chosen as the appropriate model because it’s able to use numerical and encoded categorical data to predict a numerical continuous value.
+People want to pay a car price that reflects the design and quality. This analysis discovers whether the features of a car can be used to predict the selling price. The hypothesis wasthat the condition, milage and brand of a car would impact the selling price. Linear Regression was chosen as the appropriate model because it’s able to use numerical and encoded categorical data to predict a numerical continuous value.
 
-Excel was initially used to explore and visualize the data, but issues quickly arose, such as the ability to encode columns, so the company switched to python, which is a better tool for reproducing results and placing a model into production.
+Excel was initially used to explore and visualize the data, but issues quickly arose, such as the ability to encode columns. To overcome this and improve the future productization of the model, Python was used to complete the analysis.
 
-The model’s results show that there is a ***reliable pattern between independent and dependent variables, and these are not due to randomness***. The model could be used now to predict car prices within a £4.5k tolerance. To enhance the model, another form of encoding could be used to remove possible overfitting. The model will save employees 26 hours a month that would be spent physically surveying cars and will limit underselling, potentially up to £2.9k per car, thereby generating more profit. 
+The model’s results show that there is a reliable pattern between independent and dependent variables, and these are not due to randomness. And the model could be used to predict car priceswithin a £4.5k tolerance. To enhance the accuracy model, another form of encoding could be used to remove any possible overfitting, and alternative metrics, such as MAE, could be used to assess the accuracy.
+
+The model will save employees 26 hours a month that would be spent physically surveying cars and will limit underselling, potentially up to £2.9k per car, thereby generating more profit.
 <br>
 
 #### Data Tools & Engineering
 
-The data was sourced from Kaggle. Kaggle is not an industry or statistics body and there are no details about where this data is sourced from, so the accuracy is not guaranteed. If this was a company project, I’d consider purchasing data from a car sales platform like Autotrader. Link to the data: https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data
+The data was exported from Kaggle. It includes details of cars sold in 2014/15 including brand, body shape, year, odometer count, condition, colour and price. Kaggle is a platform where likeminded data scientists share resources to enhance their skills. It is not an industry or statistics body and there are no details about where this data is sourced from, so the accuracy is not guaranteed. Link to the data: https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data
 
 Linear regression was chosen because there’s an expectation that the independent variables have a linear relationship with the dependant variable. Also, it can handle multiple variables and is a proven prediction method used across many industries. 
 
@@ -76,8 +78,12 @@ A column chart with a secondary line axis was plotted to show the total price of
 | Condition coefficient | 61 | Every one condition increase, increases the price by £44
 | Mean price per body shape coefficient | 0.24 | Every one pound increase, increases the price by 24p
 | Year coefficient | 735 | Every one year increase, increases the price by £735
+| MAPE | 74% | high percentage error
 | Mean price per brand coefficient | 0.82 | Every one pound increase, increases the price by 82p
 | P values | 0.00 | Below 0.05 which means the results are not random
+
+<br>
+Whilst the MAPE suggests the model has poor accuracy, this metric reports higher error where the predicted value is higher than the actual value, which is the case 54% of the time in the test dataset. This suggests that this metric may be inflated/ inaccurate itself.
 <br>
 The results provide sufficient evidence to conclude this model could be used to predict the price of a car, within a reasonable margin of error. For greater accuracy, the following steps are recommended:
 1.	Collect up-to-date information and from an official source to improve the accuracy of the data.
@@ -162,12 +168,6 @@ df['year'].fillna(year_mean, inplace=True)
 # encode body shape
 mean_body = df.groupby('body')['sellingprice'].mean()
 df['avg_per_body'] = df['body'].map(mean_body)
-
-# encode transmission
-df['transmission'] = df['transmission'].map({
-    'manual': 0,
-    'automatic': 1
-}).fillna(0.5)
 
 # Calculate the average price of a BWM 1 series brand
 filtered = df[df['make_model_trim'].str.contains("bmw 1series", case=False, na=False)]
