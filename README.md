@@ -2,7 +2,7 @@ Welcome to my data science portfolio.
 
 ## 🤵 About Me
 
-I currently work for a UK Financial Services company as a Data Analyst. My role mainly involves:
+I currently work as a Data Analyst in Financial Services company. My role mainly involves:
 - Project managing data transformation projects.
 - Analysing data to provide assurance that processes are followed and reporting analysis results to management.
 - Creating dashboards to give others access to information and help them understand trends and insights.
@@ -45,6 +45,7 @@ Excel was initially used to explore and visualize the data, but issues quickly a
 The model’s results show that there is a reliable pattern between independent and dependent variables, and these are not due to randomness. And the model could be used to predict car priceswithin a £4.5k tolerance. To enhance the accuracy model, another form of encoding could be used to remove any possible overfitting, and alternative metrics, such as MAE, could be used to assess the accuracy.
 
 The model will save employees 26 hours a month that would be spent physically surveying cars and will limit underselling, potentially up to £2.9k per car, thereby generating more profit.
+
 <br>
 
 #### Data Tools & Engineering
@@ -60,12 +61,19 @@ A correlation matrix showed that the year and odometer columns were correlated w
 #### Data Visualisation
 
 Visualising data is crucial to be able to understand it. A clusted column chart was plotted showing average selling price (predictor variable) with the avergae MMR to understand if the MMR score is worth including in the model. The MMR is an industry pricing standard showing the estimated price of a car. This is directly factored into the selling price so was removed because the analysis is to understand if a car’s characteristics can be used to predict price.
+
 <br>
+
 ![MMR image](assets/MMR.png)
+
 <br>
+
 A column chart with a secondary line axis was plotted to show the total price of all cars sold and the average price by brand. This chart evidences a general understanding of the market, that some brands are significantly more expensive than others, suggesting that brand could be a good predictor variable.
+
 <br>
+
 ![Car Price image](assets/CarPrice.png)
+
 <br>
 
 #### Data Analysis
@@ -83,13 +91,14 @@ A column chart with a secondary line axis was plotted to show the total price of
 | P values | 0.00 | Below 0.05 which means the results are not random
 
 <br>
-Whilst the MAPE suggests the model has poor accuracy, this metric reports higher error where the predicted value is higher than the actual value, which is the case 54% of the time in the test dataset. This suggests that this metric may be inflated/ inaccurate itself.
+Whilst the MAPE suggests the model has poor accuracy, this metric reports higher error where the predicted value is higher than the actual value, which is the case 54% of the time in the test dataset. This suggests that this metric may be inflated/ inaccurate itself. The results provide sufficient evidence to conclude this model could be used to predict the price of a car, within a reasonable margin of error. For greater accuracy, the following steps are recommended:
+
 <br>
-The results provide sufficient evidence to conclude this model could be used to predict the price of a car, within a reasonable margin of error. For greater accuracy, the following steps are recommended:
-1.	Collect up-to-date information and from an official source to improve the accuracy of the data.
-2.	Consider adding other suitable variables, for example the fuel type and engine size.
-3.	Conduct rigorous testing before placing into production to ensure it performs as expected.
-4.	Consider other encoding methods to reduce any possibility of overfitting, as this can happen with ‘mean encoding’ (because it uses the predictor variable).
+
+- Collect up-to-date information and from an official source to improve the accuracy of the data.
+- Consider adding other suitable variables, for example the fuel type and engine size.
+- Conduct rigorous testing before placing into production to ensure it performs as expected.
+- Consider other encoding methods to reduce any possibility of overfitting, as this can happen with ‘mean encoding’.
 
 <br>
 <br>
