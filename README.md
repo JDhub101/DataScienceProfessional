@@ -2,9 +2,9 @@ Welcome to my data science portfolio.
 
 ## 🤵 About Me
 
-I currently work as a Data Analyst in Financial Services company. My role mainly involves:
-- Project managing data transformation projects.
-- Analysing data to provide assurance that processes are followed and reporting analysis results to management.
+I currently work as a Data Analyst in a Financial Services company. My role mainly involves:
+- 'Project mMnaging' data transformation projects.
+- Analysing data to provide assurance that processes are complied with, and reporting these results to management.
 - Creating dashboards to give others access to information and help them understand trends and insights.
 <br>
 <br>
@@ -15,16 +15,16 @@ I currently work as a Data Analyst in Financial Services company. My role mainly
 - **Tools**: Python, PowerBI, PowerQuery, Excel
 - **Python Libraries**: Pandas, NumPy, matplotlib, seaborn
 - **Technical skills**: Building Data Pipelines, Statistical Analysis, Data Visualisaition, Linear & Logistic Regression
-- **General skills**: Project management, UK regulatory environment and rules.
-- **Expierence**: 10 years expierence in the financial services across a variety of customer service, consultancy and data analyst roles.
-I'm currently undertaking a Level 6 Data Science Apprenticeship to further enhance my skills.
+- **General skills**: Project management, PowerPoint presentations, Power BI and Excel dashboards, understanding of the UK regulatory environment and Financial Conduct Authority (FCA) rules.
+- **Expierence**: 10 years experience in the financial services across a variety of customer service, consultancy and data analyst roles.
+I'm currently undertaking a Level 6 Data Science Apprenticeship to further enhance my technical data science skills.
 <br>
 <br>
 <br>
 
 ## 💻 My Public Data Science Projects
 
-I have one public project; a linear regression model to predict car price, in which I used python.
+I have one public project; a linear regression model to predict car price (below).
 <br>
 <br>
 <br>
@@ -32,13 +32,13 @@ I have one public project; a linear regression model to predict car price, in wh
 <br>
 <br>
 
-## 🚙 Project 1: Linear Regression to Predict Car Price
+## 🚙 Project 1: Linear regression to predict car price
 
 <br>
 
 #### Executive Summary
 
-People want to pay a car price that reflects the design and quality. This analysis discovers whether the features of a car can be used to predict the selling price. The hypothesis wasthat the condition, milage and brand of a car would impact the selling price. Linear Regression was chosen as the appropriate model because it’s able to use numerical and encoded categorical data to predict a numerical continuous value.
+People want to pay a car price that reflects the design and quality. This analysis discovers whether the features of a car can be used to predict the selling price. The hypothesis was that the condition, milage and brand of a car would impact the selling price. Linear Regression was chosen as the appropriate model because it’s able to use numerical and encoded categorical data to predict a numerical continuous value.
 
 Excel was initially used to explore and visualize the data, but issues quickly arose, such as the ability to encode columns. To overcome this and improve the future productization of the model, Python was used to complete the analysis.
 
@@ -54,7 +54,7 @@ The data was exported from Kaggle. It includes details of cars sold in 2014/15 i
 
 Linear regression was chosen because there’s an expectation that the independent variables have a linear relationship with the dependant variable. Also, it can handle multiple variables and is a proven prediction method used across many industries. 
 
-A correlation matrix showed that the year and odometer columns were correlated with each other (72%). This is clear in these charts as the shapes are opposite. Therefore, odometer was removed to remove multicollinearity. Transmission and colour were also removed because of their extremely low correlation with price.
+A correlation matrix showed that the year and odometer columns were correlated with each other (72%), and so, the odometer column was removed to remove any posssible multicollinearity. Transmission and colour were also removed because of their extremely low correlation with price.
 
 <br>
 
