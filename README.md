@@ -262,3 +262,34 @@ print(f"The predicted value of a 2009 BMW 1 Series and a condition of 30 is: £{
 sns.scatterplot(x = y_test, y =y_pred).set(title='Actual v Predicted Price')
 ```
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## 📃 Project 2: Webscraping FCA website
+
+<br>
+
+I am not permitted to webscrape the FCA's website as this is forbidden in their terms of use. Therefore I have provided example data below to be scraped in the same format that is on the FCA's website for my apprenticeship project:
+
+<br>
+
+| Title | Description |Published Date | Modified Date | Theme |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Firms’ customer due diligence processes and controls: our findings | In 2025, we conducted a multi-firm review of Customer Due Diligence (CDD), Enhanced Due Diligence (EDD) and ongoing due diligence controls. | 08/04/2026 | 08/04/2026 | Good and poor practice |
+| CP26/12: Proposed amends to PRA Rulebook and FCA Guidance concerning the Loan to Income flow limit in mortgage lending | Proposed amendments to PRA Rulebook and FCA Guidance concerning the Loan to Income flow limit in mortgage lending. | 01/04/2026 | 01/04/2026 | Consultation papers |
+| Operational resilience: insights and observations one year on | Make sure your firm is continuing to comply with our operational resilience rules. Use our observations from firms’ self-assessments to help review and evolve your firm’s approach to being resilient. | 27/03/2026 | 27/03/2026 | Good and poor practice |
+| CP26/10: Simplifying the pensions and investment advice rules | We are consulting on how to make it easier for firms to give more simplified forms of advice to consumers. | 25/03/2026 | 25/03/2026 | Consultation papers |
+| MS26/1.1: Market study into later life mortgages - Terms of Reference [pdf] | The Terms of Reference for our market study looking into later life mortgages. |  20/03/2026 | - | Market Studies  |
+| Payment Services and Electronic Money – Our Approach [pdf] | FCA guidance to help businesses navigate the Payment Services Regulations 2017 and the Electronic Money Regulations 2011. | 19/03/2026 | 19/03/2026 | Finalised guidance |
+| FG26/3: Operational Incident Reporting [pdf] | This Finalised Guidance sets out the FCA’s expectations of how firms should comply with our requirements to report operational incidents. | 18/03/2026  | - | Finalised guidance |
+| PS26/2: Operational Incident and Third Party Reporting [pdf] | This Policy Statement sets out the FCA's final rules on policies that cover reporting serious incidents that impact FCA statutory objectives and reporting material third parties that underpin firms' operations. | 18/03/2026  | - | Policy statements |
+| Regulatory Priorities: Consumer investments report [pdf] | FCA Regulatory Priorities report providing specific key priorities for the consumer investments sector. | 04/03/2026 | 05/03/2026 | Regulatory priorities |
+| Sustainability Disclosure Requirements labels: good and poor practice | Find examples of good and poor practice for using labels under the Sustainability Disclosure Requirements (SDR) regime. | 27/02/2026 | 27/02/2026 | Good and poor practice |
+
+<br>
+<br>
+<br>
+<br>
